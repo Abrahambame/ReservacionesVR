@@ -7,13 +7,7 @@ import FloatingRobot from './components/FloatingRobot';
 import SoundControl from './components/SoundControl';
 import ReservaForm from "./components/ReservaForm"
 
-function App() {
-  return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-      <ReservaForm />
-    </div>
-  )
-}
+
 
 function App() {
   const [currentView, setCurrentView] = useState('home');
